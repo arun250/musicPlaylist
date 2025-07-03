@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+}
+
+.bannerContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 30px;
+}
+.singerName {
+  color: white;
+  font-size: 40px;
+  font-family: 'Roboto';
+}
+.profession {
+  color: white;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.bodyContainer {
+  background-color: #152850;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 30px;
+}
+.searchboxContainer {
+  padding: 10px;
+  display: flex;
+  width: 250px;
+  height: 35px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+}
+.usersearchInput {
+  width: 250px;
+  height: 35px;
+  font-size: 20px;
+  outline: none;
+  background-color: transparent;
+  color: #cbd5e1;
+  border: none;
+}
+.searchIcon {
+  color: white;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.trackImage {
+  width: 200px;
+  height: 120px;
+  margin-right: 10px;
+}
+.eachTrackItem {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+.eachTrackDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 150px;
+  height: 80px;
+  border: 1px solid gray;
+}
+
+.name {
+  font-size: 23px;
+  margin-right: 10px;
+  color: white;
+}
+
+.genre {
+  font-size: 23px;
+  margin-right: 10px;
+  color: #3b82f6;
+}
+
+.eachTrackDetailsRowContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  height: 100px;
+  border: 1px solid gray;
+  color: white;
+}
+.duration {
+  font-size: 23px;
+  margin-right: 10px;
+}
+.eachrowContiainer {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid green;
+  align-items: center;
+}
+.firstSection {
+  display: flex;
+  border: 1px solid gainsboro;
+  align-items: center;
+}
+.initialTracksListContainer {
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-top: 30px;
+}
+.not-found-heading {
+  font-size: 40px;
+  color: #ffffff;
+}
+.not-found-container {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+.deleteButton {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+}
